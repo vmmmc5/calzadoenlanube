@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ .menu-bar{
+    display: none;
+}
+nav {
+
+    background: #f93800;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    text-align: right;
+}
+li {
+    display: inline-block;
+    position: relative;
+}
+nav ul li:hover {
+    background: #283350;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 15px;  
+} 
+.children {
+    position: absolute;
+    display: none;
+    background: #0084ff;
+    text-align: left;
+}
+
+nav ul li:hover .children {
+    display: block;
+    width: 130%;
+    text-align: left;
+}
+nav ul li .children li {
+    display: block;
+    border-bottom: 1px solid white;
+}
+nav ul li .children li a {
+    display: block;
+}
+.main-content {
+    margin: 30px;
+}
+.img-principal{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
