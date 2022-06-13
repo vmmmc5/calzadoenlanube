@@ -12,9 +12,18 @@ servidor.use(express.static(__dirname+('/public')));
 servidor.get('/',(req,res)=>{
     res.render('index.ejs');
 })
-servidor.get('/homePage.ejs',(req,res)=>{
-    res.render('homePage.ejs');
+servidor.get('/registrar.ejs',(req,res)=>{
+    res.render('registrar.ejs');
+})
+servidor.get('/index.ejs',(req,res)=>{
+    res.render('index.ejs');
+})
+servidor.get('/tiendas.ejs',(req,res)=>{
+    res.render('tiendas.ejs');
+})
+servidor.get('/iniciar.ejs',(req,res)=>{
+    res.render('iniciar.ejs');
 })
 servidor.listen(3000,()=>{
     console.log("Esta corriendo en la 3000 =) ");
-})
+}) 
