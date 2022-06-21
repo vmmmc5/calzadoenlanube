@@ -1,0 +1,23 @@
+table{
+    border-collapse: collapse;
+    font-size: 1.5em;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+ td, th{
+    border: 1px solid  rgb(0, 0, 0);
+    padding: 0.8em;
+  
+}
+th{
+    background-color: blue;
+    color: white;
+}
+img{
+    width: 100px;
+}
+.table{
+    margin: 0 0 0 320px;
+}

@@ -1,0 +1,60 @@
+footer{
+    width: 100%;
+    padding: 50px 0px;
+     background-image: url(/img/footer2.png); 
+
+    background-size: cover;
+}
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: transparent;
+}
+.box-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: transparent;
+}
+.box-footer .logo{
+    background-color: transparent;
+}
+.box-footer .logo img{
+    width: 5%;
+    background-color: transparent;
+}
+.box-footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    /* font-weight: 400; */
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    background-color: transparent;
+}
+.box-footer .terms p{
+    background-color: transparent;
+}
+.box-footer h2{
+    margin-bottom: 30px;
+    color: rgb(255, 249, 249);
+    /* font-weight: 700; */
+    background-color: transparent;
+}
+.box-footer a{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    /* font-weight: 600; */
+    text-decoration: none;
+    background-color: transparent;
+}
+.box-footer a:hover{
+    opacity: 0.8;
+}
+.box-footer a img{
+    
+    font-size: 20px;
+}

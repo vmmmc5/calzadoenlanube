@@ -1,0 +1,93 @@
+.menu-bar{
+    display: none;
+}
+nav {
+    background: rgb(117,191,255);
+    width: 100%;
+}
+ul {
+    list-style: none;
+    text-align: right;
+}
+li {
+    display: inline-block;
+    position: relative;
+}
+.main-content{
+    width: 100%;
+}
+ li:hover {
+    background: #283350;
+    
+}
+a {
+    display: block;
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 15px;  
+} 
+.children {
+    position: absolute;
+    display: none;
+    background: #0084ff;
+    text-align: left;
+}
+li:hover .children {
+    display: block;
+    width: 130%;
+    text-align: left;
+}
+nav ul li .children li {
+    display: block;
+    border-bottom: 1px solid white;
+}
+nav ul li .children li a {
+    display: block;
+}
+.main-content {
+    margin: 30px;
+}
+.search input[type=text]{
+   position: relative;
+   margin-bottom: 0;
+   width: 100%;
+   text-align: center;
+   margin: 0 auto;
+   padding: 10px;
+
+}  
+.search{
+   float:left;
+   margin:7px;
+   width: 30%;
+
+} 
+.search button{
+   background-color: #0074D9;
+   color: #f2f2f2;
+   
+
+   padding: 5px 10px;
+   margin-right: 16px;
+   font-size: 12px;
+   border: none;
+   cursor: pointer;
+} 
+.logo{
+   float: left;
+   width: 3%;
+   margin-right: 2%;
+}
+.precio{
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.ahora{
+    font-size: 1.3em;
+}
+.promo{
+    font-size: 1.5em;
+    color: rgb(2, 1, 0);
+}
